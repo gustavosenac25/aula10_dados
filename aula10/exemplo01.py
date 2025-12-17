@@ -22,9 +22,9 @@
 #     print('Obesidade grau III')
 
 
-def calcula_atingimento(v , m):
-    r = v / m * 100
-    return r
+# def calcula_atingimento(v , m):
+#     r = v / m * 100
+#     return r
 
 # for nun in range(1,4):
 #     try:
@@ -39,20 +39,20 @@ def calcula_atingimento(v , m):
 
 #ou
 
-for nun in range(1,4):
-    try:
-        venda = float(input('Informe o valor da venda: '))
-        meta = float(input ('Informe a meta do vendor: '))
-        resultado = calcula_atingimento(venda , meta)
-    except ValueError:
-        print('\nErro! Digite apenas números')
-    except ZeroDivisionError:
-        print('\nErro! Digite um valor diferente de zero')
-        exit()
-    except KeyboardInterrupt:
-        print('\nOperação finalizada pelo usuário')
-    else:
-        print(f'Resultado: {resultado}%')
-    finally:
-        print('Operação finalizada')
+# for nun in range(1,4):
+#     try:
+#         venda = float(input('Informe o valor da venda: '))
+#         meta = float(input ('Informe a meta do vendor: '))
+#         resultado = calcula_atingimento(venda , meta)
+#     except ValueError:
+#         print('\nErro! Digite apenas números')
+#     except ZeroDivisionError:
+#         print('\nErro! Digite um valor diferente de zero')
+#         exit()
+#     except KeyboardInterrupt:
+#         print('\nOperação finalizada pelo usuário')
+#     else:
+#         print(f'Resultado: {resultado}%')
+#     finally:
+#         print('Operação finalizada')
     
