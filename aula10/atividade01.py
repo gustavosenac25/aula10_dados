@@ -11,8 +11,10 @@ for num in range(3):
         numeroa = float(input('Informe o primeiro número: '))
         numerob = float(input('Informe o segundo número: '))
         resultado = soma_numeros(numeroa, numerob)
+    except (ValueError, TypeError) :
+        print('Digite apenas números')
+    except KeyboardInterrupt:
+        print('Operaão finalizada pelo usuário')
+        break
+    else:
         print(f'A soma de {numeroa} e {numerob} é: {resultado}')
-    except ValueError:
-        print('Digite apenas números')
-    except TypeError:
-        print('Digite apenas números')
